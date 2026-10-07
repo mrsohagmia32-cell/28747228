@@ -2,9 +2,8 @@ name: Auto Post Pexels Photo to Telegram
 
 on:
   schedule:
-    # প্রতি ৩০ মিনিট পর পর রান করবে (ঘণ্টায় ২টি পোস্ট)
     - cron: '*/30 * * * *'
-  workflow_dispatch: # ম্যানুয়ালি ক্লিক করে রান করার জন্য
+  workflow_dispatch:
 
 jobs:
   run-bot:
